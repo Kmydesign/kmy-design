@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420">
+  <defs>
+    <style>
+      .a {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>n_logo</title>
+  <g>
+    <path class="a" d="M252,168V0H0V252a84,84,0,0,0,84,84V84h84A84,84,0,0,0,252,168Z"/>
+    <path class="a" d="M336,84V336H252a84,84,0,0,0-84-84V420H420V168A84,84,0,0,0,336,84Z"/>
+  </g>
+</svg>
