@@ -34,8 +34,8 @@ function ButtonAppBar(props) {
     <div className={classes.root}>
     <AppBar position="fixed"  style={{ background: 'transparent', boxShadow: 'none'}}>
         <Toolbar>
-          <GithubBox />
-          <Facebook />
+          <a href="https://github.com/Kmydesign/kmy-design"><GithubBox /></a>
+          <a href="https://www.facebook.com/kmydesign/"><Facebook /></a>
         </Toolbar>
       </AppBar>
     </div>

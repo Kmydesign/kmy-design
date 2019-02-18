@@ -9,7 +9,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { withStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField'
-import logo from './n_logo-15.svg';
+import logo from './k_logo.png';
 import './App.css';
 
 
@@ -44,12 +44,8 @@ class App extends Component {
   </div>
           <img src={logo} className="App-logo" alt="logo" />
           <br />
-    <Login />
-  <div>
-  <br />
-  <Button variant="outlined" color="primary">
-Login
-</Button></div>
+    Coming soon
+
 
         </header>
         <div>

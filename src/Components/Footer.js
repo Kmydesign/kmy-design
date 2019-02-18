@@ -20,7 +20,7 @@ function FullWidthGrid(props) {
   const { classes } = props;
 
   return (
-    <div className={classes.root} position="sticky">
+    <div className={classes.root}>
       <Grid container spacing={0}>
         <Grid item xs={12}>
           <Paper className={classes.paper}>© 2018 KMY Design All Rights Reserved</Paper>
