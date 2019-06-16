@@ -13,6 +13,7 @@ import Facebook from 'mdi-material-ui/Facebook';
 import Twitter from 'mdi-material-ui/Twitter';
 import Dribbble from 'mdi-material-ui/Dribbble';
 import Behance from 'mdi-material-ui/Behance';
+import Store from 'mdi-material-ui/Store';
 
 const styles = {
   root: {
@@ -42,6 +43,7 @@ function ButtonAppBar(props) {
           <a href="https://www.behance.net/Kimbm"><Behance /></a>
           <a href="https://twitter.com/Kmyillustration"><Twitter /></a>
           <a href="https://dribble.com/Kmy_Design"><Dribbble /></a>
+          <a href="https://kmydesign.squarespace.com"><Store /></a>
         </Toolbar>
       </AppBar>
     </div>
