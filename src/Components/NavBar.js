@@ -8,8 +8,11 @@ import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import Icon from '@material-ui/core/Icon';
 import MenuIcon from '@material-ui/icons/Menu';
-import GithubBox from 'mdi-material-ui/GithubBox'
-import Facebook from 'mdi-material-ui/Facebook'
+import GithubBox from 'mdi-material-ui/GithubBox';
+import Facebook from 'mdi-material-ui/Facebook';
+import Twitter from 'mdi-material-ui/Twitter';
+import Dribbble from 'mdi-material-ui/Dribbble';
+import Behance from 'mdi-material-ui/Behance';
 
 const styles = {
   root: {
@@ -36,6 +39,9 @@ function ButtonAppBar(props) {
         <Toolbar>
           <a href="https://github.com/Kmydesign/kmy-design"><GithubBox /></a>
           <a href="https://www.facebook.com/kmydesign/"><Facebook /></a>
+          <a href="https://www.behance.net/Kimbm"><Behance /></a>
+          <a href="https://twitter.com/Kmyillustration"><Twitter /></a>
+          <a href="https://dribble.com/Kmy_Design"><Dribbble /></a>
         </Toolbar>
       </AppBar>
     </div>
