@@ -6,6 +6,8 @@ import * as serviceWorker from './serviceWorker';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import grey from '@material-ui/core/colors/grey';
 import pink from '@material-ui/core/colors/pink';
+import { ParallaxProvider } from 'react-scroll-parallax';
+
 
 console.log(grey)
 
@@ -30,7 +32,9 @@ const theme = createMuiTheme({
 
 ReactDOM.render(
   <MuiThemeProvider theme={theme}>
+  <ParallaxProvider>
   <App />
+  </ParallaxProvider>
   </MuiThemeProvider>,
    document.getElementById('root'));
 

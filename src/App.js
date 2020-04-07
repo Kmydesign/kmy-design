@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import NavBar from './Components/NavBar';
 import Footer from './Components/Footer';
 import Login from './Components/Login';
+import TwitterContainer from './Components/TwitterContainer';
 import Button from '@material-ui/core/Button';
 import Card from '@material-ui/core/Card';
 import Icon from '@material-ui/core/Icon';
@@ -12,7 +13,6 @@ import { withStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField'
 import logo from './k_logo.png';
 import './App.css';
-
 
 const styles = theme => ({
   container: {
@@ -43,10 +43,16 @@ class App extends Component {
         <div>
         <NavBar />
        </div>
-          <img src={logo} className="App-logo" alt="logo" />
-          <br />
-          <br />
+       <div>
+  <Button variant="contained" color="secondary" href="https://www.etsy.com/ca/shop/KmyDesign">
+    Etsy Shop
+  </Button>
+</div>
+
         </header>
+        <div class="TwitterContainer">
+     <TwitterContainer />
+     </div>
         <div>
         <Footer />
         </div>

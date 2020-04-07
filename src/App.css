@@ -40,13 +40,24 @@
 }
 .App-header {
   background-image: linear-gradient(to bottom right, cyan, purple);
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 50px;
+}
+.TwitterContainer{
+  min-height: auto;
+min-width: 10vh;
+max-width: 75vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 50px;
 }
 
 .App-link {

@@ -38,12 +38,13 @@ function ButtonAppBar(props) {
     <div className={classes.root}>
     <AppBar position="fixed"  style={{ background: 'transparent', boxShadow: 'none'}}>
         <Toolbar>
+
           <a href="https://github.com/Kmydesign/kmy-design"><GithubBox /></a>
           <a href="https://www.facebook.com/kmydesign/"><Facebook /></a>
           <a href="https://www.behance.net/Kimbm"><Behance /></a>
           <a href="https://twitter.com/Kmyillustration"><Twitter /></a>
-          <a href="https://dribble.com/Kmy_Design"><Dribbble /></a>
-          <a href="https://kmydesign.squarespace.com"><Store /></a>
+          <a href="https://dribbble.com/Kmy_Design"><Dribbble /></a>
+          <a href="https://www.etsy.com/ca/shop/KmyDesign"><Store /></a>
         </Toolbar>
       </AppBar>
     </div>

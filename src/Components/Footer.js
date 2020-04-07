@@ -23,7 +23,7 @@ function FullWidthGrid(props) {
     <div className={classes.root}>
       <Grid container spacing={0}>
         <Grid item xs={12}>
-          <Paper className={classes.paper}>© 2018-2019 KMY Design All Rights Reserved</Paper>
+          <Paper className={classes.paper}>© 2018-2020 KMY Design All Rights Reserved</Paper>
         </Grid>
       </Grid>
     </div>
